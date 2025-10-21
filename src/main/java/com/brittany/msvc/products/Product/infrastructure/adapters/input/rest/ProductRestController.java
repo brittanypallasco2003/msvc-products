@@ -1,12 +1,12 @@
-package com.brittany.msvc.products.infrastructure.adapters.input.rest;
+package com.brittany.msvc.products.Product.infrastructure.adapters.input.rest;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.brittany.msvc.products.application.ports.input.ProductServicePort;
-import com.brittany.msvc.products.infrastructure.adapters.input.rest.dto.ProductRequestDTO;
-import com.brittany.msvc.products.infrastructure.adapters.input.rest.dto.ProductResponseDTO;
-import com.brittany.msvc.products.infrastructure.adapters.input.rest.mapper.ProductDTOMapper;
+import com.brittany.msvc.products.Product.application.ports.input.ProductServicePort;
+import com.brittany.msvc.products.Product.infrastructure.adapters.input.rest.dto.ProductRequestDTO;
+import com.brittany.msvc.products.Product.infrastructure.adapters.input.rest.dto.ProductResponseDTO;
+import com.brittany.msvc.products.Product.infrastructure.adapters.input.rest.mapper.ProductDTOMapper;
 
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;

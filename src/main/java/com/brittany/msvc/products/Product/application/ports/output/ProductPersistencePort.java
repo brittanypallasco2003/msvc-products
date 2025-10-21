@@ -1,9 +1,9 @@
-package com.brittany.msvc.products.application.ports.output;
+package com.brittany.msvc.products.Product.application.ports.output;
 
 import java.util.List;
 import java.util.Optional;
 
-import com.brittany.msvc.products.domain.model.Product;
+import com.brittany.msvc.products.Product.domain.model.Product;
 
 public interface ProductPersistencePort {
 

@@ -1,4 +1,4 @@
-package com.brittany.msvc.products.infrastructure.adapters.input.rest.dto;
+package com.brittany.msvc.products.Product.infrastructure.adapters.input.rest.dto;
 
 import jakarta.validation.constraints.DecimalMin;
 import jakarta.validation.constraints.Digits;

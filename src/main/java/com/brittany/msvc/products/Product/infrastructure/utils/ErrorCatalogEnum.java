@@ -1,4 +1,4 @@
-package com.brittany.msvc.products.infrastructure.utils;
+package com.brittany.msvc.products.Product.infrastructure.utils;
 
 import lombok.Getter;
 

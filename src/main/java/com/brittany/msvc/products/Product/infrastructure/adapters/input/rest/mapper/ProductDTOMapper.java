@@ -1,13 +1,13 @@
-package com.brittany.msvc.products.infrastructure.adapters.input.rest.mapper;
+package com.brittany.msvc.products.Product.infrastructure.adapters.input.rest.mapper;
 
 import java.util.List;
 
 import org.mapstruct.Mapper;
 import org.mapstruct.ReportingPolicy;
 
-import com.brittany.msvc.products.domain.model.Product;
-import com.brittany.msvc.products.infrastructure.adapters.input.rest.dto.ProductRequestDTO;
-import com.brittany.msvc.products.infrastructure.adapters.input.rest.dto.ProductResponseDTO;
+import com.brittany.msvc.products.Product.domain.model.Product;
+import com.brittany.msvc.products.Product.infrastructure.adapters.input.rest.dto.ProductRequestDTO;
+import com.brittany.msvc.products.Product.infrastructure.adapters.input.rest.dto.ProductResponseDTO;
 
 // ReportingPolicy.IGNORE: le dice a MapStruct que ignore los campos que no se puedan mapear en el destino.
 // por ejemplo, si ProductRequestDTO no tiene un campo id, que si tiene Product, no genere un error de compilación. Simplementa ignora el campo no asociadao.

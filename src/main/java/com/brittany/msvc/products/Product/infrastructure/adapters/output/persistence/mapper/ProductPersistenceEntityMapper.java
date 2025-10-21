@@ -1,11 +1,11 @@
-package com.brittany.msvc.products.infrastructure.adapters.output.persistence.mapper;
+package com.brittany.msvc.products.Product.infrastructure.adapters.output.persistence.mapper;
 
 import java.util.List;
 
 import org.mapstruct.Mapper;
 
-import com.brittany.msvc.products.domain.model.Product;
-import com.brittany.msvc.products.infrastructure.adapters.output.persistence.entity.ProductEntity;
+import com.brittany.msvc.products.Product.domain.model.Product;
+import com.brittany.msvc.products.Product.infrastructure.adapters.output.persistence.entity.ProductEntity;
 
 @Mapper(componentModel = "spring")
 public interface ProductPersistenceEntityMapper {

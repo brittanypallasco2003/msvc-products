@@ -1,9 +1,9 @@
-package com.brittany.msvc.products.application.ports.input;
+package com.brittany.msvc.products.Prueba.application.ports.in;
 
-import com.brittany.msvc.products.application.ports.output.PruebaPersistence;
-import com.brittany.msvc.products.domain.model.CreateUseCase;
-import com.brittany.msvc.products.infrastructure.adapters.input.rest.dto.PruebaRequest;
-import com.brittany.msvc.products.infrastructure.adapters.output.persistence.mapper.PruebaMapper;
+import com.brittany.msvc.products.Prueba.application.ports.ou.PruebaPersistence;
+import com.brittany.msvc.products.Product.domain.model.CreateUseCase;
+import com.brittany.msvc.products.Prueba.application.dto.request.PruebaRequest;
+import com.brittany.msvc.products.Prueba.application.mapper.PruebaMapper;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

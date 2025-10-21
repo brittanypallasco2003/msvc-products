@@ -7,8 +7,8 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.brittany.msvc.products.infrastructure.adapters.output.persistence.entity.ProductEntity;
-import com.brittany.msvc.products.infrastructure.adapters.output.persistence.repository.ProductRepository;
+import com.brittany.msvc.products.Product.infrastructure.adapters.output.persistence.entity.ProductEntity;
+import com.brittany.msvc.products.Product.infrastructure.adapters.output.persistence.repository.ProductRepository;
 
 @SpringBootApplication
 public class MsvcProductsApplication implements CommandLineRunner {
@@ -20,6 +20,7 @@ public class MsvcProductsApplication implements CommandLineRunner {
 	}
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(MsvcProductsApplication.class, args);
 	}
 

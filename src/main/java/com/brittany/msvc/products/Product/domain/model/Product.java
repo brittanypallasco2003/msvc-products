@@ -1,4 +1,4 @@
-package com.brittany.msvc.products.domain.model;
+package com.brittany.msvc.products.Product.domain.model;
 
 public class Product {
     private Long id;

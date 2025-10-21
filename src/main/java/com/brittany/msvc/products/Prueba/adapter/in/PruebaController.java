@@ -1,7 +1,7 @@
-package com.brittany.msvc.products.infrastructure.adapters.input.rest;
+package com.brittany.msvc.products.Prueba.adapter.in;
 
-import com.brittany.msvc.products.application.service.PruebaService;
-import com.brittany.msvc.products.infrastructure.adapters.input.rest.dto.PruebaRequest;
+import com.brittany.msvc.products.Prueba.application.service.PruebaService;
+import com.brittany.msvc.products.Prueba.application.dto.request.PruebaRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

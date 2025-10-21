@@ -1,13 +1,13 @@
-package com.brittany.msvc.products.application.service;
+package com.brittany.msvc.products.Product.application.service;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.brittany.msvc.products.application.ports.input.ProductServicePort;
-import com.brittany.msvc.products.application.ports.output.ProductPersistencePort;
-import com.brittany.msvc.products.domain.exception.ProductNotFoundException;
-import com.brittany.msvc.products.domain.model.Product;
+import com.brittany.msvc.products.Product.application.ports.input.ProductServicePort;
+import com.brittany.msvc.products.Product.application.ports.output.ProductPersistencePort;
+import com.brittany.msvc.products.Product.domain.exception.ProductNotFoundException;
+import com.brittany.msvc.products.Product.domain.model.Product;
 
 import lombok.extern.slf4j.Slf4j;
 

@@ -1,0 +1,21 @@
+services:
+  db:
+      image: postgres
+      restart: always
+      ports:
+        - "5432:5432"
+      environment:
+        POSTGRES_PASSWORD: 12345
+        POSTGRES_DB: dbPrueba
+        POSTGRES_USER: postgres
+        DATABASE_HOST: 127.0.0.1
+
+  pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: "admin@admin.com"
+      PGADMIN_DEFAULT_PASSWORD: "admin"
+    ports:
+      - "80:80"
+    depends_on:
+      - db

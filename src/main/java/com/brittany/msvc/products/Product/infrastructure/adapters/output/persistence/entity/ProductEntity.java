@@ -1,4 +1,4 @@
-package com.brittany.msvc.products.infrastructure.adapters.output.persistence.entity;
+package com.brittany.msvc.products.Product.infrastructure.adapters.output.persistence.entity;
 
 import java.time.LocalDateTime;
 

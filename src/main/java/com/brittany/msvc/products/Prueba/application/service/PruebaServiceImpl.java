@@ -1,15 +1,14 @@
-package com.brittany.msvc.products.application.service;
+package com.brittany.msvc.products.Prueba.application.service;
 
-import com.brittany.msvc.products.domain.DeleteUseCase;
-import com.brittany.msvc.products.domain.Prueba;
-import com.brittany.msvc.products.domain.model.CreateUseCase;
-import com.brittany.msvc.products.infrastructure.adapters.input.rest.dto.PruebaRequest;
+import com.brittany.msvc.products.Prueba.domain.usecase.DeleteUseCase;
+import com.brittany.msvc.products.Product.domain.model.CreateUseCase;
+import com.brittany.msvc.products.Prueba.application.dto.request.PruebaRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 @Service
 @RequiredArgsConstructor
-public class PruebaServiceImpl implements PruebaService{
+public class PruebaServiceImpl implements PruebaService {
     private final DeleteUseCase deleteUseCase;
     private final CreateUseCase createUseCase;
 

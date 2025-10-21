@@ -1,4 +1,4 @@
-package com.brittany.msvc.products.domain.exception;
+package com.brittany.msvc.products.Product.domain.exception;
 
 public class ProductNotFoundException extends RuntimeException  {
     public ProductNotFoundException(String message){

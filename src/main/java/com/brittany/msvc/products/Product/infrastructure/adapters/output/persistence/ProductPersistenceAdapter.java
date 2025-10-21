@@ -1,16 +1,16 @@
-package com.brittany.msvc.products.infrastructure.adapters.output.persistence;
+package com.brittany.msvc.products.Product.infrastructure.adapters.output.persistence;
 
 import java.util.List;
 import java.util.Optional;
 
 import org.springframework.stereotype.Component;
 
-import com.brittany.msvc.products.application.ports.output.ProductPersistencePort;
-import com.brittany.msvc.products.domain.model.Product;
-import com.brittany.msvc.products.infrastructure.adapters.input.rest.mapper.ProductDTOMapper;
-import com.brittany.msvc.products.infrastructure.adapters.output.persistence.entity.ProductEntity;
-import com.brittany.msvc.products.infrastructure.adapters.output.persistence.mapper.ProductPersistenceEntityMapper;
-import com.brittany.msvc.products.infrastructure.adapters.output.persistence.repository.ProductRepository;
+import com.brittany.msvc.products.Product.application.ports.output.ProductPersistencePort;
+import com.brittany.msvc.products.Product.domain.model.Product;
+import com.brittany.msvc.products.Product.infrastructure.adapters.input.rest.mapper.ProductDTOMapper;
+import com.brittany.msvc.products.Product.infrastructure.adapters.output.persistence.entity.ProductEntity;
+import com.brittany.msvc.products.Product.infrastructure.adapters.output.persistence.mapper.ProductPersistenceEntityMapper;
+import com.brittany.msvc.products.Product.infrastructure.adapters.output.persistence.repository.ProductRepository;
 
 import lombok.extern.slf4j.Slf4j;
 

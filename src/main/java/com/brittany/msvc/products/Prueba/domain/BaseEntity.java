@@ -1,5 +1,6 @@
-package com.brittany.msvc.products.domain;
+package com.brittany.msvc.products.Prueba.domain;
 
+import com.brittany.msvc.products.Product.domain.Status;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
 import jakarta.persistence.MappedSuperclass;

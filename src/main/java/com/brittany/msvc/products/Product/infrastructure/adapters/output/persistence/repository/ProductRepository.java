@@ -1,8 +1,8 @@
-package com.brittany.msvc.products.infrastructure.adapters.output.persistence.repository;
+package com.brittany.msvc.products.Product.infrastructure.adapters.output.persistence.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.brittany.msvc.products.infrastructure.adapters.output.persistence.entity.ProductEntity;
+import com.brittany.msvc.products.Product.infrastructure.adapters.output.persistence.entity.ProductEntity;
 
 public interface ProductRepository extends JpaRepository<ProductEntity, Long> {
 

@@ -15,3 +15,8 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: create
+  grpc:
+    server:
+      port: 9090
+      reflection:
+        enabled: true

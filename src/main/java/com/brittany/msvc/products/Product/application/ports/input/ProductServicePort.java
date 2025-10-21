@@ -1,8 +1,8 @@
-package com.brittany.msvc.products.application.ports.input;
+package com.brittany.msvc.products.Product.application.ports.input;
 
 import java.util.List;
 
-import com.brittany.msvc.products.domain.model.Product;
+import com.brittany.msvc.products.Product.domain.model.Product;
 
 public interface ProductServicePort {
 
