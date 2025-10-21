@@ -10,6 +10,6 @@ public interface ProductPersistencePort {
     Optional<Product> findById(Long id);
     List<Product> findAll();
     Product save(Product product);
-    void deleteById(Long id); 
-
+    void deleteById(Long id);
+    
 }
